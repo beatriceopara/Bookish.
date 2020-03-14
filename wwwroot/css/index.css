@@ -1,0 +1,22 @@
+﻿.jumbotron h1 {
+    width: auto;
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end 5;
+}
+
+@keyframes typing {
+    from {max-width: 0}
+    to {max-width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: #000000; }
+}
