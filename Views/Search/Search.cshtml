@@ -5,10 +5,13 @@
     Layout = "_Layout";
 }
 
-<h2>Search For Books</h2>
+<section class="jumbotron">
+    <h2>Search For Books</h2>
+</section>
 
 
-<section class="formSection">
+
+<section class="searchBookForm">
     <form asp-controller="Search" asp-action="SearchResults" method="POST">
         <label for="title">Search by book title:</label>
         <input type="text" id="title"/>

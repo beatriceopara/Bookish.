@@ -6,9 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c36505-18bd-4a7b-9afd-7cf3a9d40ac2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/AddBookController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/AddBookModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/AddBook/AddBook.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bookish1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/SearchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SearchController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
@@ -49,14 +50,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F3325C05-7891-45B4-AC78-327FC18BDC7C/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Search/SearchResults.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/AddBook/AddBook.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/AddBookModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/AddBookController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/SearchModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Search/Search.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/SearchController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Search/SearchResults.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,12 +73,15 @@
         <option value="$PROJECT_DIR$/Models/SearchModel.cs" />
         <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fb9e5270-4416-4646-bdcd-29d12bc1f999/console.sql" />
-        <option value="$PROJECT_DIR$/Views/Search/Search.cshtml" />
-        <option value="$PROJECT_DIR$/Views/Search/SearchResults.cshtml" />
         <option value="$PROJECT_DIR$/library.sql" />
         <option value="$PROJECT_DIR$/Controllers/SearchController.cs" />
+        <option value="$PROJECT_DIR$/Models/AddBookModel.cs" />
+        <option value="$PROJECT_DIR$/Controllers/AddBookController.cs" />
+        <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Search/SearchResults.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Search/Search.cshtml" />
+        <option value="$PROJECT_DIR$/Views/AddBook/AddBook.cshtml" />
       </list>
     </option>
   </component>
@@ -165,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584191270634</updated>
       <workItem from="1584191273150" duration="6625000" />
-      <workItem from="1584198901835" duration="3518000" />
+      <workItem from="1584198901835" duration="5859000" />
     </task>
     <servers />
   </component>
@@ -204,22 +211,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1584200210438" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584203689705">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584208469579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584203689705" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584203689704">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584208469578" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584208469578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584203689704" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584203689704">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584208469578" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584208469578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584203689704" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584203689704">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584208469578" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584208469578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584203689704" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584208469578" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584199507745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

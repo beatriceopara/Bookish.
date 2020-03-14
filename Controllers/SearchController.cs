@@ -4,7 +4,6 @@ using Bookish1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Dapper;
 using MySql.Data.MySqlClient;
-// using MySql.Data.MySqlClient.Connection;
 
 
 namespace Bookish1.Controllers
