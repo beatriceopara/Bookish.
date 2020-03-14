@@ -6,29 +6,33 @@
 }
 
 <section class="jumbotron">
-    <h2>Search For Books</h2>
+    <h1 class="display-4">Search For Books</h1>
 </section>
-
 
 
 <section class="searchBookForm">
     <form asp-controller="Search" asp-action="SearchResults" method="POST">
-        <label for="title">Search by book title:</label>
-        <input type="text" id="title"/>
-        <br>
+        <div class="form-group">
+            <label for="title">Search by book title:</label>
+            <input type="text" class="form-control" id="title"/>
+        </div>
 
-        <label for="authorFirstName">Search author first name:</label>
-        <input type="text" id="authorFirstName"/>
-        <br>
+        <div class="form-group">
+            <label for="authorFirstName">Search author first name:</label>
+            <input type="text" class="form-control" id="authorFirstName"/>
+        </div>
 
-        <label for="authorLastName">Search author last name:</label>
-        <input type="text" id="authorLastName"/>
-        <br>
+        <div class="form-group">
+            <label for="authorLastName">Search author last name:</label>
+            <input type="text" class="form-control" id="authorLastName"/>
+        </div>
 
-        <label for="publishedYear">Search published year:</label>
-        <input type="number" id="publishedYear"/>
-        <br>
-        <input type="submit"/><br>
+        <div class="form-group">
+            <label for="publishedYear">Search published year:</label>
+            <input type="number" class="form-control" id="publishedYear"/>
+        </div>
+        
+        <input type="submit" class="btn btn-outline-success"/>
     </form>
 
 </section>
