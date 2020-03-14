@@ -1,21 +1,79 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    <link rel="stylesheet" href="~/css/index.css"/>
 }
-
-<head>
-    <link rel="stylesheet" href="~/css/index.css" />
-</head>
 
 <section class="jumbotron">
     <h1 class="display-4">Welcome to Bookish</h1>
-    @* <p>For all your librarian needs</p> *@
 </section>
 
-<section class="option buttons">
-    <a asp-controller="Search" asp-action="Search"><button type="button" class="btn btn-light">Search Books</button></a>
-    <a asp-controller="AddBook" asp-action="AddBook"><button type="button" class="btn btn-light">Add Books</button></a>
-    <a asp-controller="" asp-action=""><button type="button" class="btn btn-light">Remove Books</button></a>
-    <a asp-controller="" asp-action=""><button type="button" class="btn btn-light">Add Member</button></a>
-    <a asp-controller="" asp-action=""><button type="button" class="btn btn-light">Edit Member</button></a>
 
+<section class="option">
+    <div class="row">
+        <section class="card col" style="width: 18rem;">
+            <img class="card-img-top" src="">
+            <div class="card-body">
+                <h5>Search Books</h5>
+                <a asp-controller="Search" asp-action="Search">
+                    <button type="button" class="btn btn-light">Search</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="card col" style="width: 18rem;">
+            <img class="card-img-top" src="">
+            <div class="card-body">
+                <h5>Add New Books</h5>
+                <a asp-controller="AddBook" asp-action="AddBook">
+                    <button type="button" class="btn btn-light">Add</button>
+                </a>
+            </div>
+        </section>
+    
+        <section class="card col" style="width: 18rem;">
+            <img class="card-img-top" src="">
+            <div class="card-body">
+                <h5>Edit Books</h5>
+                <a asp-controller="AddBook" asp-action="">
+                    <button type="button" class="btn btn-light">Edit</button>
+                </a>
+            </div>
+        </section>
+    </div>
+    </section>
+    <section class="option">
+    <div class="row">
+        <section class="card col" style="width: 18rem;">
+                <img class="card-img-top" src="">
+                <div class="card-body">
+                    <h5>Remove Books</h5>
+                    <a asp-controller="" asp-action="">
+                        <button type="button" class="btn btn-light">Remove</button>
+                    </a>
+                </div>
+            </section>
+        
+            <section class="card col" style="width: 18rem;">
+                <img class="card-img-top" src="">
+                <div class="card-body">
+                    <h5>Add Members</h5>
+                    <a asp-controller="" asp-action="">
+                        <button type="button" class="btn btn-light">Add Member</button>
+                    </a>
+                </div>
+            </section>
+        
+        <section class="card col" style="width: 18rem;">
+            <img class="card-img-top" src="">
+            <div class="card-body">
+                <h5>Edit Members</h5>
+                <a asp-controller="" asp-action="">
+                    <button type="button" class="btn btn-light">Edit Member</button>
+                </a>
+            </div>
+        </section>
+
+    </div>
 </section>
+
+    

@@ -60,6 +60,15 @@
           <e p="site.css" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
+        <e p="images" t="Include">
+          <e p="book_add.png" t="Include" />
+          <e p="book_delete.png" t="Include" />
+          <e p="book_edit.png" t="Include" />
+          <e p="browse.jpg" t="Include" />
+          <e p="user-edit.png" t="Include" />
+          <e p="user-plus.png" t="Include" />
+          <e p="user-plus.svg" t="Include" />
+        </e>
         <e p="js" t="Include">
           <e p="site.js" t="Include" />
         </e>
