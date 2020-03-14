@@ -1,0 +1,28 @@
+﻿@model List<SearchModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Search Results</h2>
+
+<section class="searchResults"></section>
+
+<table class="booksTable">
+    <tr>
+        <th>Title</th>
+        <th>Author First Name</th>
+        <th>Author Last Name</th>
+        <th>Published Year</th>
+    </tr>
+    @foreach (var searchResults in Model)
+    {
+        <tr>
+            <td>@searchResults.Title</td>
+            <td>@searchResults.AuthorFirstName</td>
+            <td>@searchResults.AuthorLastName</td>
+            <td>@searchResults.PublishedYear</td>
+        </tr>
+    }
+</table>
