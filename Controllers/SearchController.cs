@@ -25,7 +25,7 @@ namespace Bookish1.Controllers
             var connectionString = "Server=localhost;Database=library;Uid=root;Pwd=sugar;";
             using var connection = new MySqlConnection(connectionString);
 
-            var searchResults = connection.Query<SearchModel>("SELECT * FROM books WHERE authorLastName = 'Rowling'").ToList();
+            var searchResults = connection.Query<SearchModel>("SELECT * FROM library.books WHERE authorLastName = 'Rowling'").ToList();
             
             searchResults.ForEach(Console.Write);
 
